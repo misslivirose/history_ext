@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "History Title Exporter",
+  "version": "1.0",
+  "description": "Exports titles of websites visited in the last two weeks.",
+  "permissions": ["history", "downloads"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "16": "icon.png"
+  }
+}
